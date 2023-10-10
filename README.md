@@ -25,6 +25,7 @@ pip install -r requirements.txt
 Now you're ready to use our code for solving LPP!
 
 Example for "Method is not applicable":
+
 2 3
 
 1 1
