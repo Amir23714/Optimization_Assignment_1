@@ -1,5 +1,6 @@
 import numpy as np
 import math
+import sys
 
 
 def basic_check(column):
@@ -149,11 +150,13 @@ def get_user_input():
                 break
         if not flag:
             print("The method is not applicable")
+            sys.exit(0) 
+            
 
     for i in b:
         if i < 0:
             print("The method is not applicable")
-            exit(0)
+            sys.exit(0) 
 
     return c, A, b, ap
 
