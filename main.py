@@ -141,6 +141,20 @@ def get_user_input():
     b = list(map(int, input().split()))
     ap = int(input())
 
+    for i in range(len(A)):
+        flag = False
+        for j in range(len(A[i])):
+            if A[i][j] > 0:
+                flag = True
+                break
+        if not flag:
+            print("The method is not applicable")
+
+    for i in b:
+        if i < 0:
+            print("The method is not applicable")
+            exit(0)
+
     return c, A, b, ap
 
 
