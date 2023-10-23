@@ -47,6 +47,17 @@ Example:
 0
 ```
 
+Example for "Method is not applicable":
+```bash
+2 3
+1 1
+-1 1
+-1 0
+-1 1
+2 4 4
+0
+```
+
 The script will output two lines:
 ```bash
 The first line contains the optimal solution for the decision variables.
@@ -58,14 +69,3 @@ Ensure that the input data is provided in the specified format, with appropriate
 The accuracy parameter controls the number of decimal places in the output. Adjust it to your desired level of precision.
 
 Now you're ready to use our code for solving LPP!
-
-Example for "Method is not applicable":
-```bash
-2 3
-1 1
--1 1
--1 0
--1 1
-2 4 4
-0
-```
