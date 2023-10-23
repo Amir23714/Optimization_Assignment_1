@@ -37,11 +37,13 @@ approximation accuracy
 ```
 
 Example:
+```bash
 3 2
 2 -1 3
 1 1 1
 3 2
 3
+```
 
 The script will output two lines:
 ```bash
@@ -56,7 +58,7 @@ The accuracy parameter controls the number of decimal places in the output. Adju
 Now you're ready to use our code for solving LPP!
 
 Example for "Method is not applicable":
-
+```bash
 2 3
 1 1
 -1 1
@@ -64,3 +66,4 @@ Example for "Method is not applicable":
 -1 1
 2 4 4
 0
+```
